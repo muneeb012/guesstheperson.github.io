@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the person Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        alert("Welcome to guess the person game")
+alert("I can guess a person under 20 Questions")
+alert("Let start We only tell the person from your friends")
+let option1 = "yes"
+let q1 = prompt("Does your person wear galsses")
+if (q1 == option1){
+  let q2= prompt("Does he live in hajipura")
+  if (q2==option1){
+    location.href="Hashir.html"
+  }
+  else if (q2!=option1){
+    let q3 = prompt("Does he live in peer naseer")
+    if (q3==option1){
+      let q4 = prompt("Does his name start with Z" )
+       if(q4==option1){
+        location.href="Zeeshan.html"
+       }
+      else if (q4!=option1)
+      {
+        location.href="wahab.html"
+      }      }
+    else if (q3!=option1){
+      location.href="adurehman.html"
+    }
+}
+  
+}
+ else if(q1=="no"){
+q2 = prompt("Does he related to Girls")
+   if(q2==option1){
+    location.href="hussnain.html"
+   }
+   else if(q2!=option1){
+    let q3=prompt("Does your Person was a thef")
+   if(q3==option1){
+    location.href="Ahsan.html"
+   }
+   else if (q3!=option1){
+     q4=prompt("Does your Person Related to Airplan")
+     if(q4==option1){
+     location.href="mubeen.html"
+     }
+   else if(q4!=option1){
+   let q5 = prompt("Does your person Related to Progrming and Computer")
+  if(q5==option1){
+location.href="Muneeb.html"
+  }
+  else if(q5!=option1){
+    let q6=prompt("Does he related To Free fire")
+    if (q6==option1){
+      location.href="ali.html"
+    }
+  }
+   }
+   }
+   }
+   }
+    </script>
+</body>
+</html>
